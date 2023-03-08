@@ -296,4 +296,30 @@
 // 333
 // 22
 // 1
-asdas
+let i ;
+let numero;
+let repeticion;
+numero = Number(prompt("Ingrese un numero para iterar"));
+if (numero>=0 && numero<=50) {
+    for (i = numero; i>0 ; i--) {
+
+        for (repeticion = 0; repeticion < i ; repeticion++) {
+            document.write(i);    
+            
+        }
+        document.write("<br>");
+    } 
+}
+
+//********************************************************** */
+//********************************************************** */
+
+// 8- Crea script para generar pirámide siguiente con los números del 1 al número
+// que indique el usuario (no mayor de 50)
+// 1 12
+// 123
+// 1234
+// 12345
+// 123456
+// ……
+
