@@ -296,30 +296,153 @@
 // 333
 // 22
 // 1
-let i ;
-let numero;
-let repeticion;
-numero = Number(prompt("Ingrese un numero para iterar"));
-if (numero>=0 && numero<=50) {
-    for (i = numero; i>0 ; i--) {
+// let i ;
+// let numero;
+// let repeticion;
+// numero = Number(prompt("Ingrese un numero para iterar"));
+// if (numero>=0 && numero<=50) {
+//     for (i = numero; i>0 ; i--) {
 
-        for (repeticion = 0; repeticion < i ; repeticion++) {
-            document.write(i);    
+//         for (repeticion = 0; repeticion < i ; repeticion++) {
+//             document.write(i);    
             
-        }
-        document.write("<br>");
-    } 
-}
+//         }
+//         document.write("<br>");
+//     } 
+// }
 
 //********************************************************** */
 //********************************************************** */
 
 // 8- Crea script para generar pirámide siguiente con los números del 1 al número
 // que indique el usuario (no mayor de 50)
-// 1 12
+// 1 
+// 12
 // 123
 // 1234
 // 12345
 // 123456
 // ……
+
+// let i ;
+// let numero;
+// let j;
+// numero = Number(prompt("Ingrese un numero para iterar"));
+// if (numero>= 0 && numero<=50) {
+//     if (numero>=0 && numero<=50) {
+//         for (i = 1; i<=numero ; i++) {
+//             // document.write(i);
+//             for (j = 1; j <= i ; j++) {
+//                 document.write(j);    
+                
+//             }
+//             document.write("<br>");
+//         } 
+//     }
+// }
+
+//********************************************************** */
+//********************************************************** */
+
+// 9- Crea un script que escriba los números del 1 al 500, que indique cuáles son
+// múltiplos de 4 y de 9 y que cada 5 líneas muestre una línea horizontal. Por
+// ejemplo :
+// 1
+// 23
+// 4 (Múltiplo de 4)
+// 5-
+// ————————————————————-
+// 67
+// 8 (Múltiplo de 4)
+// 9 (Múltiplo de 9)
+// 10
+
+// for (let i = 1; i <= 500; i++) {
+//     if ((i%5)==0) {
+//         document.write(i + "------------");
+//         if ((i%4)==0) {
+//             document.write("<br>")
+//             document.write("Multiplo de 4"); //Veo si es multiplo tambien de 4 y de 9
+//         }else if((i%4)==0){
+//             document.write("<br>")
+//             document.write("Multiplo de 9");
+//         }
+//     }else if((i%4)==0){
+//         document.write(i + "Multiplo de 4");
+//         if((i%9)==0){
+//             document.write("<br>")              //Veo si es multiplo de 9 tambien 
+//             document.write("Multiplo de 9");
+//         }
+//     }else if((i%9)==0){
+//         document.write(i + "Multiplo de 9");
+//         if((i%4)==0){
+//             document.write("<br>")              //Veo si es multiplo de 4 tambien
+//             document.write("Multiplo de 4");
+//         }
+//     }
+//     document.write("<br>")
+// }
+
+//********************************************************** */
+//********************************************************** */
+
+// 10- Realiza un script que pida número de filas y columnas y escriba una tabla.
+// Dentro de cada una de las celdas deberá escribirse un número consecutivo en
+// orden descendente. Si, por ejemplo, la tabla es de 7×5 los números irán del 35 al 1.
+
+
+
+// let filas = Number(prompt("Ingrese el numero de filas"));
+// let columnas = Number(prompt("Ingrese el numero de columnas"));
+// let resultado = filas * columnas;
+// for (let i = 0; i < filas; i++) {
+//     document.write("<br>")
+//     document.write("\n");
+//     for(let j = 0 ; j < columnas; j++){
+        
+//     document.write (resultado + "\n");
+//         resultado--;
+//     }   
+// }
+
+//********************************************************** */
+//********************************************************** */
+
+// 11- Realiza un script que pida por teclado 3 edades y 3 nombres e indique el
+// nombre del mayor. *
+// Nota: ver funcion Math() https://www.w3schools.com/js/js_math.asp
+
+// let nombre1 = prompt("Hola , ingrese su nombre por favor");
+// let numero1 = Number(prompt(`hola ${nombre1} ingrese su numero por favor`));
+// let nombre2 = prompt("Hola , ingrese su nombre por favor");
+// let numero2 = Number(prompt(`hola ${nombre2} ingrese su numero por favor`));
+// let nombre3 = prompt("Hola , ingrese su nombre por favor");
+// let numero3 = Number(prompt(`hola ${nombre3} ingrese su numero por favor`));
+
+// let resultado = Math.max(numero1,numero2,numero3);
+// switch (true) {
+//     case resultado == numero1:
+//         document.write("El mayor numero es de :",nombre1); 
+//     break;
+//     case resultado == numero2:
+//         document.write("El mayor numero es de :",nombre2); 
+//     break;
+//     case resultado == numero3:
+//         document.write("El mayor numero es de :",nombre3); 
+//     break;
+//     default:
+//     break;
+// }
+
+//********************************************************** */
+//********************************************************** */
+
+// 12- Realiza un script que genere un número aleatorio entre 1 y 99
+// let numero = Math.round(Math.random()*(99-1)+1);
+// document.write(numero);
+
+//********************************************************** */
+//********************************************************** */
+
+// 13- Realiza un script que pida un texto y lo muestre en mayúsculas.
 
