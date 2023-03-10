@@ -445,4 +445,55 @@
 //********************************************************** */
 
 // 13- Realiza un script que pida un texto y lo muestre en mayúsculas.
+// let texto = prompt("Ingrese un texto");
+// document.write(texto.toUpperCase());
 
+//********************************************************** */
+//********************************************************** */
+
+// 14- Realiza un script que pida una cadena de texto y lo muestre poniendo el signo
+// – entre cada carácter sin usar el método replace. Por ejemplo, si tecleo “hola qué
+// tal”, deberá salir “h-o-l-a- -q-u-e- -t-a-l”.
+
+// let cadena = prompt("Ingrese una cadena de texto");
+// for (let i = 0; i < cadena.length; i++) {
+//     document.write(cadena[i]+"-");
+// }
+
+//********************************************************** */
+//********************************************************** */
+
+// 15- Realiza un script que cuente el número de vocales que tiene un texto.
+// let frase = prompt("Ingrese una cadena de texto");
+// let cont = 0;
+// for (let i = 0; i < frase.length; i++) {
+//     if (frase[i] == "a" || frase[i] == "e" || frase[i] == "i" || frase[i] == "o" || frase[i] == "u") {
+//         cont++;
+//     }
+// }
+// document.write("El numero de vocales es : " + cont);
+
+//********************************************************** */
+//********************************************************** */
+
+// 16- Realiza un script que pida una cadena de texto y la devuelva al revés. Es decir,
+// si tecleo “hola que tal” deberá mostrar “lat euq aloh”.
+
+// let cadena = prompt("Ingrese una cadena de texto");
+// for (let i = cadena.length ; i >= 0 ; i--) {
+//     document.write(cadena[i]);
+// }
+
+//********************************************************** */
+//********************************************************** */
+
+// 17- Realiza un script que muestre la posición de la primera vocal de un texto
+// introducido por teclado.
+
+// let cadena = prompt("Ingrese la cadena de caracteres");
+// for (let i = 1; i <= cadena.length; i++) {
+//     if (cadena[i] == "a" || cadena[i] == "e" || cadena[i] == "i" || cadena[i] == "o" || cadena[i] == "u") {
+//         document.write("La posicion de la primera vocal es  ;" + (i+1));
+//         break;
+//     }    
+// }
