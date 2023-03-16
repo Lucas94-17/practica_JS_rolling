@@ -46,11 +46,60 @@
 // let dado2 ;
 // let resultado = [];
 // let suma=0;
+// let cont2=0,cont3=0,cont4=0,cont5=0,cont6=0,cont7=0,cont8=0,cont9=0,cont10=0,cont11=0,cont12=0;
 // for (let i = 0; i < 50 ; i++) {
 //     dado1 = Math.floor(Math.random()*(6-1) + 1); //GENERO LOS NUMEROS ALEATORIOS ENTEROS, CON LA FUNCION RANDOM Y USANDO LA SIGUIENTE FORMULA Math.floor(Math.random()*(max-min) + min) CON LA FUNCION Math.floor que redondea hacia arriba el numero
 //     dado2 = Math.floor(Math.random()*(6-1) + 1);
 //     suma = dado1+dado2;
-//     resultado[i] = suma;
+//         switch (true) {
+//             case suma == 2:
+//                     cont2++;
+//                     resultado[0] = cont2;
+//             break;
+//             case suma == 3:
+//                     cont3++;
+//                     resultado[1] = cont3;
+//             break;
+//             case suma == 4:
+//                     cont4++;
+//                     resultado[2] = cont4;
+//             break;
+//             case suma == 5:
+//                     cont5++
+//                     resultado[3] = cont5;
+//             break;
+//             case suma == 6:
+//                     cont6++
+//                     resultado[4] = cont6;
+//             break;
+//             case suma == 7:
+//                     cont7++;
+//                     resultado[5] = cont7;
+//             break;
+//             case suma == 8:
+//                     cont8++;
+//                     resultado[6] = cont8;
+//             break;
+//             case suma == 9:
+//                     cont9++
+//                     resultado[7] = cont9;
+//             break;
+//             case suma == 10:
+//                     cont10++
+//                     resultado[8] = cont10;
+//             break;
+//             case suma == 11:
+//                     cont11++
+//                     resultado[9] = cont11;
+//             break;
+//             case suma == 12:
+//                     cont12++
+//                     resultado[10] = cont12;
+//             break;
+        
+//             default:
+//                 break;
+//         }
 // }
 
 // console.log(resultado);
